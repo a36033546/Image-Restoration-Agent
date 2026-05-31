@@ -1,0 +1,15 @@
+# 忽略模型權重檔（太大不能上 GitHub）
+*.pth
+*.h5
+
+# 忽略訓練和修復時的暫存圖片
+temp_input/
+temp_output/
+
+# 忽略 Python 執行快取
+__pycache__/
+.pytest_cache/
+
+# 忽略虛擬環境
+venv/
+.venv/
